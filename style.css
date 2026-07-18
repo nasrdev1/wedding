@@ -431,11 +431,21 @@ body::before{
 }
 .date-time{
   font-family:var(--f-body-ar);
-  font-size:1.05rem;
+  font-size:clamp(.95rem, 2.4vw, 1.05rem);
+  line-height:2;
   color:var(--ink-soft);
-  margin-bottom:26px;
+  max-width:380px;
+  margin:0 auto 26px;
 }
-.date-time-en{ font-family:var(--f-body-en); font-style:italic; font-size:.85rem; opacity:.8; }
+.date-time-en{
+  display:block;
+  font-family:var(--f-body-en);
+  font-style:italic;
+  font-size:.82rem;
+  letter-spacing:.06em;
+  opacity:.75;
+  margin-top:6px;
+}
 
 /* ---------- buttons ---------- */
 .btn{
