@@ -109,7 +109,7 @@
   }
 
   /* ================= countdown timer ================= */
-  const target = new Date("2026-08-04T21:30:00+01:00"); // Tunisia (UTC+1, no DST)
+  const target = new Date("2026-08-04T17:30:00+01:00"); // Tunisia (UTC+1, no DST)
 
   const elD = document.getElementById("cdDays");
   const elH = document.getElementById("cdHours");
